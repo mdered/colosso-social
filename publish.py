@@ -20,6 +20,10 @@ API = "https://graph.facebook.com/v21.0"
 HERE = os.path.dirname(os.path.abspath(__file__))
 BASE_URL = os.environ.get("MEDIA_BASE_URL", "https://mdered.github.io/colosso-social/")
 LIVE = os.environ.get("LIVE", "").strip().lower() == "true"
+LIVE_ACCOUNTS = {a.strip() for a in os.environ.get("LIVE_ACCOUNTS", "").split(",") if a.strip()}  # empty = all accounts
+
+def is_live(account):
+    return LIVE and (not LIVE_ACCOUNTS or account in LIVE_ACCOUNTS)
 MAX_LATE = datetime.timedelta(hours=12)
 CAPTION_LIMIT = 2200
 
@@ -82,7 +86,9 @@ def main():
     queue, done = load("queue.json", []), load("published.json", {})
     now = datetime.datetime.now(datetime.timezone.utc)
     used, changed, failed = set(), False, False
-    print(f"{'LIVE' if LIVE else 'TEST MODE (nothing is published)'} · {now:%Y-%m-%d %H:%M} UTC · {len(queue)} queued, {len(done)} done")
+    mode = ("LIVE" + (f" for {', '.join(sorted(LIVE_ACCOUNTS))}, test mode for the others" if LIVE_ACCOUNTS else "")) if LIVE \
+        else "TEST MODE (nothing is published)"
+    print(f"{mode} · {now:%Y-%m-%d %H:%M} UTC · {len(queue)} queued, {len(done)} done")
     for item in sorted(queue, key=lambda i: i["when"]):
         when = datetime.datetime.fromisoformat(item["when"])
         acc = item["account"]
@@ -94,7 +100,7 @@ def main():
             continue
         if now - when > MAX_LATE:
             print(f"MISSED {item['id']} (due {item['when']}): too late, not published")
-            if LIVE:
+            if is_live(acc):
                 done[item["id"]] = {"status": "missed", "at": now.isoformat(timespec="seconds")}
                 changed = True
             continue
@@ -104,7 +110,7 @@ def main():
                 raise RuntimeError(f"caption is {len(item['caption'])} characters (limit {CAPTION_LIMIT})")
             for p in item["images"]:
                 check_image(BASE_URL + p)
-            if not LIVE:
+            if not is_live(acc):
                 print(f"would publish {item['id']} to {acc}: {len(item['images'])} image(s), caption {len(item['caption'])} chars")
                 continue
             media = publish(item, ig_user, token)

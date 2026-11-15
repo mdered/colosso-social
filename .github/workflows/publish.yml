@@ -20,6 +20,7 @@ jobs:
       - name: Publish what's due
         env:
           LIVE: ${{ vars.LIVE }}
+          LIVE_ACCOUNTS: ${{ vars.LIVE_ACCOUNTS }}
           IG_IT_TOKEN: ${{ secrets.IG_IT_TOKEN }}
           IG_IT_USER_ID: ${{ secrets.IG_IT_USER_ID }}
           IG_EN_TOKEN: ${{ secrets.IG_EN_TOKEN }}
