@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "*/15 * * * *"        # GitHub may start it a few minutes late
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["heartbeat.txt"]      # backup nudge from a Claude routine at 19:05/19:35/20:05/20:35 (GitHub's timer can be hours late)
 
 permissions:
   contents: write
