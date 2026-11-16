@@ -20,6 +20,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main                  # the latest state, not the commit from when the run was queued
       - name: Publish what's due
         env:
           LIVE: ${{ vars.LIVE }}

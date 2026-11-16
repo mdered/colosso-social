@@ -82,6 +82,20 @@ def publish(item, ig_user, token):
     return call("POST", f"{ig_user}/media_publish", token, creation_id=parent)["id"]
 
 
+def published_on_github(item_id):
+    """True if the latest published.json on GitHub already has this post. A run that GitHub delayed may hold an old
+    copy, in which a post published since then still looks due (this caused a double post on 2026-11-16)."""
+    import subprocess
+    try:
+        subprocess.run(["git", "fetch", "-q", "origin", "main"], cwd=HERE, check=True, timeout=60)
+        latest = json.loads(subprocess.run(["git", "show", "origin/main:published.json"], cwd=HERE, check=True,
+                                           capture_output=True, timeout=60).stdout or b"{}")
+    except Exception as e:
+        print(f"can't read the latest published.json ({e}): not publishing in this run")
+        return True
+    return item_id in latest
+
+
 def main():
     queue, done = load("queue.json", []), load("published.json", {})
     now = datetime.datetime.now(datetime.timezone.utc)
@@ -112,6 +126,9 @@ def main():
                 check_image(BASE_URL + p)
             if not is_live(acc):
                 print(f"would publish {item['id']} to {acc}: {len(item['images'])} image(s), caption {len(item['caption'])} chars")
+                continue
+            if published_on_github(item["id"]):
+                print(f"skip {item['id']}: already published (latest state on GitHub)")
                 continue
             media = publish(item, ig_user, token)
             done[item["id"]] = {"status": "published", "media_id": media, "at": now.isoformat(timespec="seconds")}
