@@ -48,13 +48,14 @@ def call(method, path, token, **params):
 
 
 def wait_ready(container, token):
-    for _ in range(60):                                       # up to 5 minutes
+    time.sleep(10)
+    for _ in range(15):                                       # up to 5 minutes, one check every 20 s
         status = call("GET", container, token, fields="status_code").get("status_code")
         if status == "FINISHED":
             return
         if status in ("ERROR", "EXPIRED"):
             raise RuntimeError(f"container {container}: {status}")
-        time.sleep(5)
+        time.sleep(20)                                            # few, spaced checks: Meta limits API calls
     raise RuntimeError(f"container {container}: not ready after 5 minutes")
 
 
