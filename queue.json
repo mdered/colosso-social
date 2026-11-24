@@ -84,7 +84,7 @@
   {
     "id": "en-04-form-barbell-bench-press",
     "account": "en",
-    "when": "2026-11-23T20:00:00+01:00",
+    "when": "2026-11-25T20:00:00+01:00",
     "images": [
       "media/en/04-form-barbell-bench-press/01.jpg",
       "media/en/04-form-barbell-bench-press/02.jpg",
@@ -98,7 +98,7 @@
   {
     "id": "it-04-form-barbell-bench-press",
     "account": "it",
-    "when": "2026-11-23T19:30:00+01:00",
+    "when": "2026-11-25T19:30:00+01:00",
     "images": [
       "media/it/04-form-barbell-bench-press/01.jpg",
       "media/it/04-form-barbell-bench-press/02.jpg",
@@ -112,7 +112,7 @@
   {
     "id": "en-05-app-rest-timer",
     "account": "en",
-    "when": "2026-11-25T20:00:00+01:00",
+    "when": "2026-11-27T20:00:00+01:00",
     "images": [
       "media/en/05-app-rest-timer/01.jpg",
       "media/en/05-app-rest-timer/02.jpg",
@@ -124,7 +124,7 @@
   {
     "id": "it-05-app-rest-timer",
     "account": "it",
-    "when": "2026-11-25T19:30:00+01:00",
+    "when": "2026-11-27T19:30:00+01:00",
     "images": [
       "media/it/05-app-rest-timer/01.jpg",
       "media/it/05-app-rest-timer/02.jpg",
@@ -136,7 +136,7 @@
   {
     "id": "en-06-form-push-up",
     "account": "en",
-    "when": "2026-11-27T20:00:00+01:00",
+    "when": "2026-11-30T20:00:00+01:00",
     "images": [
       "media/en/06-form-push-up/01.jpg",
       "media/en/06-form-push-up/02.jpg",
@@ -150,7 +150,7 @@
   {
     "id": "it-06-form-push-up",
     "account": "it",
-    "when": "2026-11-27T19:30:00+01:00",
+    "when": "2026-11-30T19:30:00+01:00",
     "images": [
       "media/it/06-form-push-up/01.jpg",
       "media/it/06-form-push-up/02.jpg",
@@ -164,7 +164,7 @@
   {
     "id": "en-07-form-deadlift",
     "account": "en",
-    "when": "2026-11-30T20:00:00+01:00",
+    "when": "2026-12-02T20:00:00+01:00",
     "images": [
       "media/en/07-form-deadlift/01.jpg",
       "media/en/07-form-deadlift/02.jpg",
@@ -178,7 +178,7 @@
   {
     "id": "it-07-form-deadlift",
     "account": "it",
-    "when": "2026-11-30T19:30:00+01:00",
+    "when": "2026-12-02T19:30:00+01:00",
     "images": [
       "media/it/07-form-deadlift/01.jpg",
       "media/it/07-form-deadlift/02.jpg",
@@ -192,7 +192,7 @@
   {
     "id": "en-08-mistakes-lateral-raise",
     "account": "en",
-    "when": "2026-12-02T20:00:00+01:00",
+    "when": "2026-12-04T20:00:00+01:00",
     "images": [
       "media/en/08-mistakes-lateral-raise/01.jpg",
       "media/en/08-mistakes-lateral-raise/02.jpg",
@@ -204,7 +204,7 @@
   {
     "id": "it-08-mistakes-lateral-raise",
     "account": "it",
-    "when": "2026-12-02T19:30:00+01:00",
+    "when": "2026-12-04T19:30:00+01:00",
     "images": [
       "media/it/08-mistakes-lateral-raise/01.jpg",
       "media/it/08-mistakes-lateral-raise/02.jpg",
@@ -216,7 +216,7 @@
   {
     "id": "en-09-program-push-up-progression",
     "account": "en",
-    "when": "2026-12-04T20:00:00+01:00",
+    "when": "2026-12-07T20:00:00+01:00",
     "images": [
       "media/en/09-program-push-up-progression/01.jpg",
       "media/en/09-program-push-up-progression/02.jpg",
@@ -231,7 +231,7 @@
   {
     "id": "it-09-program-push-up-progression",
     "account": "it",
-    "when": "2026-12-04T19:30:00+01:00",
+    "when": "2026-12-07T19:30:00+01:00",
     "images": [
       "media/it/09-program-push-up-progression/01.jpg",
       "media/it/09-program-push-up-progression/02.jpg",
@@ -246,7 +246,7 @@
   {
     "id": "en-10-form-hip-thrust",
     "account": "en",
-    "when": "2026-12-07T20:00:00+01:00",
+    "when": "2026-12-09T20:00:00+01:00",
     "images": [
       "media/en/10-form-hip-thrust/01.jpg",
       "media/en/10-form-hip-thrust/02.jpg",
@@ -260,7 +260,7 @@
   {
     "id": "it-10-form-hip-thrust",
     "account": "it",
-    "when": "2026-12-07T19:30:00+01:00",
+    "when": "2026-12-09T19:30:00+01:00",
     "images": [
       "media/it/10-form-hip-thrust/01.jpg",
       "media/it/10-form-hip-thrust/02.jpg",
@@ -274,7 +274,7 @@
   {
     "id": "en-11-app-prefill",
     "account": "en",
-    "when": "2026-12-09T20:00:00+01:00",
+    "when": "2026-12-11T20:00:00+01:00",
     "images": [
       "media/en/11-app-prefill/01.jpg",
       "media/en/11-app-prefill/02.jpg",
@@ -286,7 +286,7 @@
   {
     "id": "it-11-app-prefill",
     "account": "it",
-    "when": "2026-12-09T19:30:00+01:00",
+    "when": "2026-12-11T19:30:00+01:00",
     "images": [
       "media/it/11-app-prefill/01.jpg",
       "media/it/11-app-prefill/02.jpg",
@@ -298,7 +298,7 @@
   {
     "id": "en-12-form-pull-up",
     "account": "en",
-    "when": "2026-12-11T20:00:00+01:00",
+    "when": "2026-12-14T20:00:00+01:00",
     "images": [
       "media/en/12-form-pull-up/01.jpg",
       "media/en/12-form-pull-up/02.jpg",
@@ -312,7 +312,7 @@
   {
     "id": "it-12-form-pull-up",
     "account": "it",
-    "when": "2026-12-11T19:30:00+01:00",
+    "when": "2026-12-14T19:30:00+01:00",
     "images": [
       "media/it/12-form-pull-up/01.jpg",
       "media/it/12-form-pull-up/02.jpg",
@@ -326,7 +326,7 @@
   {
     "id": "en-13-mistakes-barbell-row",
     "account": "en",
-    "when": "2026-12-14T20:00:00+01:00",
+    "when": "2026-12-16T20:00:00+01:00",
     "images": [
       "media/en/13-mistakes-barbell-row/01.jpg",
       "media/en/13-mistakes-barbell-row/02.jpg",
@@ -338,7 +338,7 @@
   {
     "id": "it-13-mistakes-barbell-row",
     "account": "it",
-    "when": "2026-12-14T19:30:00+01:00",
+    "when": "2026-12-16T19:30:00+01:00",
     "images": [
       "media/it/13-mistakes-barbell-row/01.jpg",
       "media/it/13-mistakes-barbell-row/02.jpg",
@@ -350,7 +350,7 @@
   {
     "id": "en-14-form-overhead-press",
     "account": "en",
-    "when": "2026-12-16T20:00:00+01:00",
+    "when": "2026-12-18T20:00:00+01:00",
     "images": [
       "media/en/14-form-overhead-press/01.jpg",
       "media/en/14-form-overhead-press/02.jpg",
@@ -364,7 +364,7 @@
   {
     "id": "it-14-form-overhead-press",
     "account": "it",
-    "when": "2026-12-16T19:30:00+01:00",
+    "when": "2026-12-18T19:30:00+01:00",
     "images": [
       "media/it/14-form-overhead-press/01.jpg",
       "media/it/14-form-overhead-press/02.jpg",
@@ -378,7 +378,7 @@
   {
     "id": "en-15-program-home-glutes",
     "account": "en",
-    "when": "2026-12-18T20:00:00+01:00",
+    "when": "2026-12-21T20:00:00+01:00",
     "images": [
       "media/en/15-program-home-glutes/01.jpg",
       "media/en/15-program-home-glutes/02.jpg",
@@ -393,7 +393,7 @@
   {
     "id": "it-15-program-home-glutes",
     "account": "it",
-    "when": "2026-12-18T19:30:00+01:00",
+    "when": "2026-12-21T19:30:00+01:00",
     "images": [
       "media/it/15-program-home-glutes/01.jpg",
       "media/it/15-program-home-glutes/02.jpg",
@@ -408,7 +408,7 @@
   {
     "id": "en-16-mistakes-walking-lunge",
     "account": "en",
-    "when": "2026-12-21T20:00:00+01:00",
+    "when": "2026-12-23T20:00:00+01:00",
     "images": [
       "media/en/16-mistakes-walking-lunge/01.jpg",
       "media/en/16-mistakes-walking-lunge/02.jpg",
@@ -420,7 +420,7 @@
   {
     "id": "it-16-mistakes-walking-lunge",
     "account": "it",
-    "when": "2026-12-21T19:30:00+01:00",
+    "when": "2026-12-23T19:30:00+01:00",
     "images": [
       "media/it/16-mistakes-walking-lunge/01.jpg",
       "media/it/16-mistakes-walking-lunge/02.jpg",
@@ -432,7 +432,7 @@
   {
     "id": "en-17-app-prs",
     "account": "en",
-    "when": "2026-12-23T20:00:00+01:00",
+    "when": "2026-12-25T20:00:00+01:00",
     "images": [
       "media/en/17-app-prs/01.jpg",
       "media/en/17-app-prs/02.jpg",
@@ -444,7 +444,7 @@
   {
     "id": "it-17-app-prs",
     "account": "it",
-    "when": "2026-12-23T19:30:00+01:00",
+    "when": "2026-12-25T19:30:00+01:00",
     "images": [
       "media/it/17-app-prs/01.jpg",
       "media/it/17-app-prs/02.jpg",
@@ -456,7 +456,7 @@
   {
     "id": "en-18-form-lat-pulldown",
     "account": "en",
-    "when": "2026-12-25T20:00:00+01:00",
+    "when": "2026-12-28T20:00:00+01:00",
     "images": [
       "media/en/18-form-lat-pulldown/01.jpg",
       "media/en/18-form-lat-pulldown/02.jpg",
@@ -470,7 +470,7 @@
   {
     "id": "it-18-form-lat-pulldown",
     "account": "it",
-    "when": "2026-12-25T19:30:00+01:00",
+    "when": "2026-12-28T19:30:00+01:00",
     "images": [
       "media/it/18-form-lat-pulldown/01.jpg",
       "media/it/18-form-lat-pulldown/02.jpg",
@@ -484,7 +484,7 @@
   {
     "id": "en-19-mistakes-plank",
     "account": "en",
-    "when": "2026-12-28T20:00:00+01:00",
+    "when": "2026-12-30T20:00:00+01:00",
     "images": [
       "media/en/19-mistakes-plank/01.jpg",
       "media/en/19-mistakes-plank/02.jpg",
@@ -496,7 +496,7 @@
   {
     "id": "it-19-mistakes-plank",
     "account": "it",
-    "when": "2026-12-28T19:30:00+01:00",
+    "when": "2026-12-30T19:30:00+01:00",
     "images": [
       "media/it/19-mistakes-plank/01.jpg",
       "media/it/19-mistakes-plank/02.jpg",
@@ -508,7 +508,7 @@
   {
     "id": "en-20-form-bulgarian-split-squat",
     "account": "en",
-    "when": "2026-12-30T20:00:00+01:00",
+    "when": "2027-01-01T20:00:00+01:00",
     "images": [
       "media/en/20-form-bulgarian-split-squat/01.jpg",
       "media/en/20-form-bulgarian-split-squat/02.jpg",
@@ -522,7 +522,7 @@
   {
     "id": "it-20-form-bulgarian-split-squat",
     "account": "it",
-    "when": "2026-12-30T19:30:00+01:00",
+    "when": "2027-01-01T19:30:00+01:00",
     "images": [
       "media/it/20-form-bulgarian-split-squat/01.jpg",
       "media/it/20-form-bulgarian-split-squat/02.jpg",
@@ -536,7 +536,7 @@
   {
     "id": "en-21-program-machine-full-body",
     "account": "en",
-    "when": "2027-01-01T20:00:00+01:00",
+    "when": "2027-01-04T20:00:00+01:00",
     "images": [
       "media/en/21-program-machine-full-body/01.jpg",
       "media/en/21-program-machine-full-body/02.jpg",
@@ -551,7 +551,7 @@
   {
     "id": "it-21-program-machine-full-body",
     "account": "it",
-    "when": "2027-01-01T19:30:00+01:00",
+    "when": "2027-01-04T19:30:00+01:00",
     "images": [
       "media/it/21-program-machine-full-body/01.jpg",
       "media/it/21-program-machine-full-body/02.jpg",
@@ -566,7 +566,7 @@
   {
     "id": "en-22-mistakes-dumbbell-curl",
     "account": "en",
-    "when": "2027-01-04T20:00:00+01:00",
+    "when": "2027-01-06T20:00:00+01:00",
     "images": [
       "media/en/22-mistakes-dumbbell-curl/01.jpg",
       "media/en/22-mistakes-dumbbell-curl/02.jpg",
@@ -578,7 +578,7 @@
   {
     "id": "it-22-mistakes-dumbbell-curl",
     "account": "it",
-    "when": "2027-01-04T19:30:00+01:00",
+    "when": "2027-01-06T19:30:00+01:00",
     "images": [
       "media/it/22-mistakes-dumbbell-curl/01.jpg",
       "media/it/22-mistakes-dumbbell-curl/02.jpg",
@@ -590,7 +590,7 @@
   {
     "id": "en-23-app-plates",
     "account": "en",
-    "when": "2027-01-06T20:00:00+01:00",
+    "when": "2027-01-08T20:00:00+01:00",
     "images": [
       "media/en/23-app-plates/01.jpg",
       "media/en/23-app-plates/02.jpg",
@@ -602,7 +602,7 @@
   {
     "id": "it-23-app-plates",
     "account": "it",
-    "when": "2027-01-06T19:30:00+01:00",
+    "when": "2027-01-08T19:30:00+01:00",
     "images": [
       "media/it/23-app-plates/01.jpg",
       "media/it/23-app-plates/02.jpg",
@@ -614,7 +614,7 @@
   {
     "id": "en-24-form-leg-press",
     "account": "en",
-    "when": "2027-01-08T20:00:00+01:00",
+    "when": "2027-01-11T20:00:00+01:00",
     "images": [
       "media/en/24-form-leg-press/01.jpg",
       "media/en/24-form-leg-press/02.jpg",
@@ -628,7 +628,7 @@
   {
     "id": "it-24-form-leg-press",
     "account": "it",
-    "when": "2027-01-08T19:30:00+01:00",
+    "when": "2027-01-11T19:30:00+01:00",
     "images": [
       "media/it/24-form-leg-press/01.jpg",
       "media/it/24-form-leg-press/02.jpg",
